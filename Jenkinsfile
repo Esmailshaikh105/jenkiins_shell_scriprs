@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'chmod +x ./name.sh'
-                sh './name.sh'
+                sh './name.sh $MYNAME $MYSURNAME'
             }
         }
 
