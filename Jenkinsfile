@@ -9,7 +9,7 @@ pipeline {
         stage('Build') {
             steps {
                 sh 'chmod +X ./name.sh'
-                sh './name.sh ${params.MYNAME} ${params.MYSURNAME}'
+                sh './name.sh ismail shaikh'
             }
         }
 
