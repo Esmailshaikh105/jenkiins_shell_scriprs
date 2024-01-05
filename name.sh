@@ -1,7 +1,4 @@
 #!/bin/bash
-
-
-NAME=$1
-SURNAME=$2
-
+NAME=Pooja
+SURNAME=Mandhare
 echo " my name is $NAME $SURNAME"
